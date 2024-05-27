@@ -127,7 +127,7 @@ function SearchReceipes({ input } : any )   {
               ))
             ) : (
               <p className="text-center fs-2 fw-bold text-capitalize mt-5">
-                <span className="text-danger">OOPS!</span>No recipes found.
+                <span className="text-danger">OOPS!😑</span>No recipes found.
               </p>
             )}
           </div>
