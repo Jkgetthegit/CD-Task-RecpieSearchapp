@@ -1,0 +1,33 @@
+.slider-container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .card-container {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  @media (min-width: 768px) {
+    .slider-container {
+      max-width: 60%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .slider-container {
+      max-width: 50%;
+    }
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  .card-title,.text-wrap{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  
